@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourBrand - Unique Teespring Designs</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="#home" class="brand-logo">YourBrand</a>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="page-section active">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>Designs That Tell a Story.</h1>
+                    <p>Discover exclusive apparel and accessories that blend creativity with quality.</p>
+                    <a href="https://your-teespring-store.com" target="_blank" class="cta-button">Shop The Collection</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="page-section">
+            <div class="container">
+                <h2>Our Products</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-category="all">All</button>
+                    <button class="filter-btn" data-category="t-shirt">T-Shirts</button>
+                    <button class="filter-btn" data-category="hoodie">Hoodies</button>
+                    <button class="filter-btn" data-category="mug">Mugs</button>
+                </div>
+                <div id="product-grid" class="product-grid">
+                    </div>
+            </div>
+        </section>
+
+        <section id="about" class="page-section">
+            <div class="container content-section">
+                <h2>About YourBrand</h2>
+                <p><strong>Our Story:</strong> YourBrand started from a simple idea: to create designs that resonate with people and bring a spark of joy and creativity into everyday life. Born from a passion for art and self-expression, each design is carefully crafted to be more than just a graphic on a product—it's a statement, a conversation starter, and a piece of wearable art.</p>
+                <p><strong>Our Mission:</strong> Our mission is to deliver high-quality, uniquely designed products that empower you to express your individual style. We are committed to creativity, quality, and ensuring that every item you purchase from our collection is something you'll love for years to come.</p>
+                
+            </div>
+        </section>
+
+        <section id="contact" class="page-section">
+            <div class="container content-section">
+                <h2>Get In Touch</h2>
+                <p>Have a question or a custom request? We'd love to hear from you!</p>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+                <div class="social-links-contact">
+                    <h3>Follow Us:</h3>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 YourBrand. All Rights Reserved.</p>
+            <div class="footer-social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
